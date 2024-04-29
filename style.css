@@ -1,14 +1,14 @@
 :root {
     --branco: white;
     --cor-de-fundo: rgb(33, 68, 85);
-    --fundo-senha: rgb(195, 0, 255);
-    --fundo-texto: rgb(187, 255, 0);
-    --borda: rgb(255, 0, 0);
+    --fundo-senha: #B0C4DE;
+    --fundo-texto: rgb(0, 0, 0);
+    --borda: #708090;
     --roboto: 'roboto', sans-serif:
     --roboto-mono: 'Roboto Mono', monospace;
 }
 
-{
+*{
     font-weight: 400;
 }
 
