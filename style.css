@@ -48,6 +48,101 @@ body{
 }
 
 #campo-senha-focus{
+    outline: none;
+}
+
+.conteudo{
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.parametro{
+    background-color: var(--fundo-texto);
+    border: 2px solid var(--borda);
+    margin-top: 32px;
+    padding: 24px;
+}
+.parametro-titulo{
+    font-family: var(--roboto-mono);
+    font-size: 28px;
+}
+
+.parametro-senha__titulo{
+    font-size: 24px;
+}
+
+.parametro-coluna__senha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.parametro-senha{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.parametro-senha-botoes{
+    display: flex;
+    justify-content: center;
+}
+
+.parametro-senha__botao{
+    background-color: var(--fundo-texto);
+    color: var(--branco);
+    border: 2px solid var(--borda);
+    padding: 24px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.parametro-senha__texto{
+    padding: 24px;
+    border-top: 2px solid var(--borda);
+    margin: 0;
+    font-size: 24px;
+}
+
+label{
+    font-size: 20px;
+}
+
+.checkbo{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.barra{
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100%;
+}
+.forÇa{
+    height: 30px;
+    position: relative;
+    bottom: 30px;
+}
+.fraca{
+    width: 25%;
+    background-color: chartreuse;
+}
+.Media{
+    background-color: darkred;
+    width: 50%;
+}
+.Forte{
+    background-color: chartreuse;
+    width: 100%;
+}
+.parametro-senha__textos{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media screen and (min-width: 768px) {
+    .parametro-coluna__senha{
+        flex-direction: row;
+    }
 }
