@@ -1,10 +1,12 @@
+@import url();
+
 :root {
     --branco: white;
     --cor-de-fundo: rgb(33, 68, 85);
     --fundo-senha: #B0C4DE;
     --fundo-texto: rgb(0, 0, 0);
     --borda: #708090;
-    --roboto: 'roboto', sans-serif:
+    --roboto: 'roboto', sans-serif;
     --roboto-mono: 'Roboto Mono', monospace;
 }
 
@@ -45,6 +47,7 @@ body{
     color: var(--branco);
     font-family: var(--roboto-mono);
     font-size: 40px;
+    width: 70%;
 }
 
 #campo-senha-focus{
@@ -99,6 +102,7 @@ body{
 .parametro-senha__texto{
     padding: 24px;
     border-top: 2px solid var(--borda);
+    border-bottom: 2px solid var(--borda);
     margin: 0;
     font-size: 24px;
 }
@@ -118,14 +122,14 @@ label{
     height: 30px;
     width: 100%;
 }
-.forÇa{
+.força{
     height: 30px;
     position: relative;
     bottom: 30px;
 }
 .fraca{
     width: 25%;
-    background-color: chartreuse;
+    background-color: rgb(238, 255, 0);
 }
 .Media{
     background-color: darkred;
@@ -145,4 +149,8 @@ label{
     .parametro-coluna__senha{
         flex-direction: row;
     }
+}
+
+.cadeado1 {
+    width: 25%;
 }
